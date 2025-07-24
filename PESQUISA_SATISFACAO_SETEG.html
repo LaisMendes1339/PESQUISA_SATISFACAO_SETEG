@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa de Satisfação Seteg</title>
+  <style>
+    body {
+      background-color: #001f3f;
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      padding: 40px;
+    }
+    h1 {
+      color: #ffffff;
+      text-align: center;
+    }
+    p {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    .question {
+      max-width: 800px;
+      margin: 30px auto;
+    }
+    .question label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .rating {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .rating button {
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 5px;
+    }
+    .rating button:nth-child(1) { background-color: #c62828; }  /* 0 */
+    .rating button:nth-child(2) { background-color: #d32f2f; }  /* 1 */
+    .rating button:nth-child(3) { background-color: #e53935; }  /* 2 */
+    .rating button:nth-child(4) { background-color: #fb8c00; }  /* 3 */
+    .rating button:nth-child(5) { background-color: #fdd835; }  /* 4 */
+    .rating button:nth-child(6) { background-color: #fbc02d; }  /* 5 */
+    .rating button:nth-child(7) { background-color: #f9a825; }  /* 6 */
+    .rating button:nth-child(8) { background-color: #c0ca33; }  /* 7 */
+    .rating button:nth-child(9) { background-color: #7cb342; }  /* 8 */
+    .rating button:nth-child(10) { background-color: #43a047; } /* 9 */
+    .rating button:nth-child(11) { background-color: #2e7d32; } /* 10 */
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      resize: vertical;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pesquisa de Satisfação Seteg</h1>
+  <p>
+    Olá, <br><br>
+    Nós da Seteg prezamos por um relacionamento cada vez mais próximo e transparente com nossos clientes. Por isso, sua opinião é fundamental para que possamos aprimorar continuamente a qualidade do nosso atendimento e dos serviços que oferecemos.<br><br>
+    Preparamos um breve formulário para que você possa compartilhar sua experiência conosco. Suas respostas serão de grande valor para toda a nossa equipe e nos ajudarão a evoluir ainda mais.<br><br>
+    Agradecemos desde já sua colaboração e sinceridade.
+  </p>
+
+  <div class="question">
+    <label>1. De 0 a 10 qual nota você atribui ao trabalho da Seteg?</label>
+    <div class="rating">
+      <button>0</button><button>1</button><button>2</button><button>3</button><button>4</button>
+      <button>5</button><button>6</button><button>7</button><button>8</button><button>9</button><button>10</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>2. De 0 a 10 o quanto você está satisfeito com o seu relacionamento com nossa equipe?</label>
+    <div class="rating">
+      <button>0</button><button>1</button><button>2</button><button>3</button><button>4</button>
+      <button>5</button><button>6</button><button>7</button><button>8</button><button>9</button><button>10</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>3. De 0 a 10 o quão efetiva é a comunicação com os canais de acesso a Seteg?</label>
+    <div class="rating">
+      <button>0</button><button>1</button><button>2</button><button>3</button><button>4</button>
+      <button>5</button><button>6</button><button>7</button><button>8</button><button>9</button><button>10</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>4. De 0 a 10 o quanto você nos indicaria a um amigo, familiar ou parceiro de negócios?</label>
+    <div class="rating">
+      <button>0</button><button>1</button><button>2</button><button>3</button><button>4</button>
+      <button>5</button><button>6</button><button>7</button><button>8</button><button>9</button><button>10</button>
+    </div>
+  </div>
+
+  <div class="question">
+    <label>5. Quais suas sugestões de melhorias, elogios e feedbacks gerais?</label>
+    <textarea placeholder="Digite sua resposta aqui..."></textarea>
+  </div>
+</body>
+</html>
